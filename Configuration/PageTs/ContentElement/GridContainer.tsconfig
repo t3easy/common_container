@@ -1,0 +1,6 @@
+TCEFORM.tt_content.layout.types.tx_commoncontainer__grid_container {
+    keepItems = 0,1,2
+}
+TCEFORM.tt_content.frame_class.types.tx_commoncontainer__grid_container {
+    keepItems = grid-x,grid-y,grid-margin-x,grid-margin-y,grid-padding-x,grid-padding-y
+}

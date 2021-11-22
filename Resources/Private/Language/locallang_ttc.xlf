@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:common_container/Resources/Private/Language/locallang_ttc.xlf" date="2021-11-21T21:07:10Z" product-name="common_container">
+		<header/>
+		<body>
+			<trans-unit id="frame_class" resname="frame_class">
+				<source>Appearance</source>
+			</trans-unit>
+			<trans-unit id="frame_class.itemGroups.grid-type" resname="frame_class.itemGroups.grid-type">
+				<source>Grid type</source>
+			</trans-unit>
+			<trans-unit id="frame_class.itemGroups.gutter-type" resname="frame_class.itemGroups.gutter-type">
+				<source>Spaces</source>
+			</trans-unit>
+			<trans-unit id="frame_class.items.grid-margin-x" resname="frame_class.items.grid-margin-x">
+				<source>Margin left and right</source>
+			</trans-unit>
+			<trans-unit id="frame_class.items.grid-margin-y" resname="frame_class.items.grid-margin-y">
+				<source>Margin top and bottom</source>
+			</trans-unit>
+			<trans-unit id="frame_class.items.grid-padding-x" resname="frame_class.items.grid-padding-x">
+				<source>Padding left and right</source>
+			</trans-unit>
+			<trans-unit id="frame_class.items.grid-padding-y" resname="frame_class.items.grid-padding-y">
+				<source>Padding top and bottom</source>
+			</trans-unit>
+			<trans-unit id="frame_class.items.grid-x" resname="frame_class.items.grid-x">
+				<source>Horizontal grid</source>
+			</trans-unit>
+			<trans-unit id="frame_class.items.grid-y" resname="frame_class.items.grid-y">
+				<source>Vertical grid</source>
+			</trans-unit>
+			<trans-unit id="layout.items.1" resname="layout.items.1">
+				<source>Fluid</source>
+			</trans-unit>
+			<trans-unit id="layout.items.2" resname="layout.items.2">
+				<source>Full</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

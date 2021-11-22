@@ -1,0 +1,14 @@
+{
+	"name": "t3easy/common-container",
+	"type": "typo3-cms-extension",
+	"description": "Common container",
+	"license": "GPL-2.0-or-later",
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "common_container"
+		}
+	},
+	"require": {
+		"b13/container": "^1.3"
+	}
+}

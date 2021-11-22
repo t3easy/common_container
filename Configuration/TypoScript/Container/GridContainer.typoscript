@@ -1,0 +1,20 @@
+tt_content.tx_commoncontainer__grid_container < lib.contentElement
+tt_content.tx_commoncontainer__grid_container {
+  templateName = GridContainer
+  templateRootPaths.10 = EXT:common_container/Resources/Private/Templates
+  partialRootPaths.10 = EXT:common_container/Resources/Private/Partials
+  layoutRootPaths.10 = EXT:common_container/Resources/Private/Layouts
+  dataProcessing {
+    10 = TYPO3\CMS\Frontend\DataProcessing\SplitProcessor
+    10 {
+      if.isTrue.field = frame_class
+      delimiter = ,
+      fieldName = frame_class
+      removeEmptyEntries = 1
+      filterUnique = 1
+      filterIntegers = 0
+      as = classes
+    }
+    20 = B13\Container\DataProcessing\ContainerProcessor
+  }
+}
