@@ -1,8 +1,8 @@
 TCEFORM.tt_content.layout.types.tx_commoncontainer__grid_container {
     keepItems = 0,1,2
 }
-TCEFORM.tt_content.frame_class.types.tx_commoncontainer__grid_container {
+TCEFORM.tt_content.t3easy_ce_classes.types.tx_commoncontainer__grid_container {
     keepItems = grid-x,grid-y,grid-margin-x,grid-margin-y,grid-padding-x,grid-padding-y
 }
 
-mod.wizards.newContentElement.wizardItems.container.elements.tx_commoncontainer__grid_container.tt_content_defValues.frame_class = grid-x,grid-margin-x
+mod.wizards.newContentElement.wizardItems.container.elements.tx_commoncontainer__grid_container.tt_content_defValues.t3easy_ce_classes = grid-x,grid-margin-x

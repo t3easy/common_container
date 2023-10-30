@@ -3,31 +3,31 @@
 	<file source-language="en" datatype="plaintext" original="EXT:common_container/Resources/Private/Language/locallang_ttc.xlf" date="2021-11-21T21:07:10Z" product-name="common_container">
 		<header/>
 		<body>
-			<trans-unit id="frame_class" resname="frame_class">
+			<trans-unit id="t3easy_ce_classes" resname="t3easy_ce_classes">
 				<source>Appearance</source>
 			</trans-unit>
-			<trans-unit id="frame_class.itemGroups.grid-type" resname="frame_class.itemGroups.grid-type">
+			<trans-unit id="t3easy_ce_classes.itemGroups.grid-type" resname="t3easy_ce_classes.itemGroups.grid-type">
 				<source>Grid type</source>
 			</trans-unit>
-			<trans-unit id="frame_class.itemGroups.gutter-type" resname="frame_class.itemGroups.gutter-type">
+			<trans-unit id="t3easy_ce_classes.itemGroups.gutter-type" resname="t3easy_ce_classes.itemGroups.gutter-type">
 				<source>Spaces</source>
 			</trans-unit>
-			<trans-unit id="frame_class.items.grid-margin-x" resname="frame_class.items.grid-margin-x">
+			<trans-unit id="t3easy_ce_classes.items.grid-margin-x" resname="t3easy_ce_classes.items.grid-margin-x">
 				<source>Margin left and right</source>
 			</trans-unit>
-			<trans-unit id="frame_class.items.grid-margin-y" resname="frame_class.items.grid-margin-y">
+			<trans-unit id="t3easy_ce_classes.items.grid-margin-y" resname="t3easy_ce_classes.items.grid-margin-y">
 				<source>Margin top and bottom</source>
 			</trans-unit>
-			<trans-unit id="frame_class.items.grid-padding-x" resname="frame_class.items.grid-padding-x">
+			<trans-unit id="t3easy_ce_classes.items.grid-padding-x" resname="t3easy_ce_classes.items.grid-padding-x">
 				<source>Padding left and right</source>
 			</trans-unit>
-			<trans-unit id="frame_class.items.grid-padding-y" resname="frame_class.items.grid-padding-y">
+			<trans-unit id="t3easy_ce_classes.items.grid-padding-y" resname="t3easy_ce_classes.items.grid-padding-y">
 				<source>Padding top and bottom</source>
 			</trans-unit>
-			<trans-unit id="frame_class.items.grid-x" resname="frame_class.items.grid-x">
+			<trans-unit id="t3easy_ce_classes.items.grid-x" resname="t3easy_ce_classes.items.grid-x">
 				<source>Horizontal grid</source>
 			</trans-unit>
-			<trans-unit id="frame_class.items.grid-y" resname="frame_class.items.grid-y">
+			<trans-unit id="t3easy_ce_classes.items.grid-y" resname="t3easy_ce_classes.items.grid-y">
 				<source>Vertical grid</source>
 			</trans-unit>
 			<trans-unit id="layout.items.1" resname="layout.items.1">

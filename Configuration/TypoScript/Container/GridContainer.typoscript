@@ -7,9 +7,9 @@ tt_content.tx_commoncontainer__grid_container {
   dataProcessing {
     10 = TYPO3\CMS\Frontend\DataProcessing\SplitProcessor
     10 {
-      if.isTrue.field = frame_class
+      if.isTrue.field = t3easy_ce_classes
       delimiter = ,
-      fieldName = frame_class
+      fieldName = t3easy_ce_classes
       removeEmptyEntries = 1
       filterUnique = 1
       filterIntegers = 0

@@ -2,5 +2,5 @@
 # Table structure for table 'tt_content'
 #
 CREATE TABLE tt_content (
-    frame_class varchar(255) DEFAULT 'default' NOT NULL
+    t3easy_ce_classes varchar(1024) DEFAULT '' NOT NULL
 );

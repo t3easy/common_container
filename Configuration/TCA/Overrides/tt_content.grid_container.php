@@ -22,7 +22,7 @@ defined('TYPO3_MODE') or die();
 
 $GLOBALS['TCA']['tt_content']['types']['tx_commoncontainer__grid_container'] = [
     'columnsOverrides' => [
-        'frame_class' => [
+        't3easy_ce_classes' => [
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectCheckBox',
@@ -31,46 +31,46 @@ $GLOBALS['TCA']['tt_content']['types']['tx_commoncontainer__grid_container'] = [
                 ],
                 'items' => [
                     [
-                        'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:frame_class.items.grid-x',
+                        'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-x',
                         'grid-x',
                         '',
                         'grid-type',
                     ],
                     [
-                        'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:frame_class.items.grid-y',
+                        'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-y',
                         'grid-y',
                         '',
                         'grid-type',
                     ],
 
                     [
-                        'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:frame_class.items.grid-margin-x',
+                        'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-margin-x',
                         'grid-margin-x',
                         '',
                         'gutter-type',
                     ],
                     [
-                        'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:frame_class.items.grid-margin-y',
+                        'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-margin-y',
                         'grid-margin-y',
                         '',
                         'gutter-type',
                     ],
                     [
-                        'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:frame_class.items.grid-padding-x',
+                        'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-padding-x',
                         'grid-padding-x',
                         '',
                         'gutter-type',
                     ],
                     [
-                        'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:frame_class.items.grid-padding-y',
+                        'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-padding-y',
                         'grid-padding-y',
                         '',
                         'gutter-type',
                     ],
                 ],
                 'itemGroups' => [
-                    'grid-type' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:frame_class.itemGroups.grid-type',
-                    'gutter-type' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:frame_class.itemGroups.gutter-type',
+                    'grid-type' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.itemGroups.grid-type',
+                    'gutter-type' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.itemGroups.gutter-type',
                 ],
                 'minitems' => 1,
                 'default' => 'grid-x,grid-margin-x',
