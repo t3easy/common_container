@@ -9,11 +9,11 @@ $EM_CONF[$_EXTKEY] = [
     'author_company' => 't3easy',
     'state' => 'stable',
     'clearCacheOnLoad' => true,
-    'version' => '1.0.1',
+    'version' => '2.0.0-dev',
     'constraints' => [
         'depends' => [
-            'typo3' => '9.5.0-11.5.99',
-            'container' => '1.3.1-1.99.99',
+            'typo3' => '9.5.0-12.99.99',
+            'container' => '1.0.0-2.99.99',
         ],
         'conflicts' => [],
         'suggests' => [],
