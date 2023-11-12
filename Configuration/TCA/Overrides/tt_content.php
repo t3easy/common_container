@@ -1,6 +1,5 @@
 <?php
-
-defined('TYPO3_MODE') or die();
+defined('TYPO3') or die();
 
 $GLOBALS['TCA']['tt_content']['palettes']['tx_commoncontainer__appearance'] = [
     'label' => 'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:palette.frames',

@@ -13,6 +13,6 @@
 	},
 	"require": {
 		"b13/container": "^1.0 || ^2.0",
-		"typo3/cms-backend": "^9.5 || ^10.4 || ^11.5 || ^12.4"
+		"typo3/cms-backend": "^10.4 || ^11.5 || ^12.4"
 	}
 }
