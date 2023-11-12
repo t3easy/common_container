@@ -6,20 +6,23 @@ call_user_func(static function () {
 
     \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\B13\Container\Tca\Registry::class)->configureContainer(
         (
-        new \B13\Container\Tca\ContainerConfiguration(
-            'tx_commoncontainer__grid_container',
-            'Grid container',
-            'Grid container',
-            [
+            new \B13\Container\Tca\ContainerConfiguration(
+                'tx_commoncontainer__grid_container',
+                'Grid container',
+                'Grid container',
                 [
                     [
-                        'name' => 'Content',
-                        'colPos' => 200,
+                        [
+                            'name' => 'Content',
+                            'colPos' => 200,
+                        ],
                     ],
-                ],
-            ]
+                ]
+            )
         )
-        )
+        ->setDefaultValues([
+            't3easy_ce_classes = grid-x,grid-margin-x',
+        ])
     );
 
     $GLOBALS['TCA']['tt_content']['types']['tx_commoncontainer__grid_container'] = [
