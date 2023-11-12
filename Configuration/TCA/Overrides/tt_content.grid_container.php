@@ -2,6 +2,8 @@
 defined('TYPO3') or die();
 
 call_user_func(static function () {
+    $typo3Version = \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\TYPO3\CMS\Core\Information\Typo3Version::class)->getMajorVersion();
+
     \TYPO3\CMS\Core\Utility\GeneralUtility::makeInstance(\B13\Container\Tca\Registry::class)->configureContainer(
         (
         new \B13\Container\Tca\ContainerConfiguration(
@@ -24,7 +26,7 @@ call_user_func(static function () {
         'columnsOverrides' => [
             't3easy_ce_classes' => [
                 'config' => [
-                    'items' => [
+                    'items' => $typo3Version < 12 ? [
                         [
                             'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-x',
                             'grid-x',
@@ -62,6 +64,38 @@ call_user_func(static function () {
                             '',
                             'gutter-type',
                         ],
+                    ] : [
+                        [
+                            'label' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-x',
+                            'value' => 'grid-x',
+                            'group' => 'grid-type',
+                        ],
+                        [
+                            'label' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-y',
+                            'value' => 'grid-y',
+                            'group' => 'grid-type',
+                        ],
+
+                        [
+                            'label' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-margin-x',
+                            'value' => 'grid-margin-x',
+                            'group' => 'gutter-type',
+                        ],
+                        [
+                            'label' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-margin-y',
+                            'value' => 'grid-margin-y',
+                            'group' => 'gutter-type',
+                        ],
+                        [
+                            'label' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-padding-x',
+                            'value' => 'grid-padding-x',
+                            'group' => 'gutter-type',
+                        ],
+                        [
+                            'label' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.items.grid-padding-y',
+                            'value' => 'grid-padding-y',
+                            'group' => 'gutter-type',
+                        ],
                     ],
                     'itemGroups' => [
                         'grid-type' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes.itemGroups.grid-type',
@@ -73,10 +107,14 @@ call_user_func(static function () {
             ],
             'layout' => [
                 'config' => [
-                    'items' => [
+                    'items' => $typo3Version < 12 ? [
                         ['LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.default_value', 0],
                         ['LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:layout.items.1', 1],
                         ['LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:layout.items.2', 2],
+                    ] : [
+                        ['label' => 'LLL:EXT:core/Resources/Private/Language/locallang_general.xlf:LGL.default_value', 'value' => 0],
+                        ['label' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:layout.items.1', 'value' => 1],
+                        ['label' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:layout.items.2', 'value' => 2],
                     ],
                 ],
             ],
