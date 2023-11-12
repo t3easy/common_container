@@ -4,6 +4,8 @@ defined('TYPO3') or die();
 call_user_func(static function () {
     $additionalColumns = [
         't3easy_ce_classes' => [
+            'label' => 'LLL:EXT:common_container/Resources/Private/Language/locallang_ttc.xlf:t3easy_ce_classes',
+            'exclude' => true,
             'config' => [
                 'type' => 'select',
                 'renderType' => 'selectCheckBox',
