@@ -21,7 +21,7 @@ call_user_func(static function () {
             )
         )
         ->setDefaultValues([
-            't3easy_ce_classes = grid-x,grid-margin-x',
+            't3easy_ce_classes' => 'grid-x,grid-margin-x',
         ])
     );
 
