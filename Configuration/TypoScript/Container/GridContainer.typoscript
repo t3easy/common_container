@@ -5,7 +5,7 @@ tt_content.tx_commoncontainer__grid_container {
   partialRootPaths.10 = EXT:common_container/Resources/Private/Partials
   layoutRootPaths.10 = EXT:common_container/Resources/Private/Layouts
   dataProcessing {
-    10 =< lib.tx_t3easyceclasses.split_processor
+    10 < lib.tx_t3easyceclasses.split_processor
     20 = B13\Container\DataProcessing\ContainerProcessor
   }
 }
