@@ -14,6 +14,7 @@ $EM_CONF[$_EXTKEY] = [
         'depends' => [
             'typo3' => '10.4.0-12.99.99',
             'container' => '1.0.0-2.99.99',
+            't3easy_ce_classes' => '1.1.0-1.99.99',
         ],
         'conflicts' => [],
         'suggests' => [],

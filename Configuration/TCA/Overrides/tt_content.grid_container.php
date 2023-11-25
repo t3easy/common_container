@@ -126,7 +126,7 @@ call_user_func(static function () {
 
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addToAllTCAtypes(
         'tt_content',
-        '--palette--;;tx_commoncontainer__appearance',
+        '--palette--;;t3easy_ce_classes_appearance',
         'tx_commoncontainer__grid_container',
         'replace:--palette--;;frames'
     );
