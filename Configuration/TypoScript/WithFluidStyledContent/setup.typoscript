@@ -1,0 +1,20 @@
+lib.commonContainer =< lib.contentElement
+lib.commonContainer {
+    templateRootPaths {
+        0 = EXT:common_container/Resources/Private/Templates
+        1 = {$styles.templates.commoncontainer.templateRootPath}
+    }
+    partialRootPaths {
+        0 = EXT:common_container/Resources/Private/Partials/
+        1 = {$styles.templates.commoncontainer.partialRootPath}
+        5 = EXT:fluid_styled_content/Resources/Private/Partials/
+    }
+
+    layoutRootPaths {
+        0 = EXT:common_container/Resources/Private/Layouts/
+        1 = {$styles.templates.commoncontainer.layoutRootPath}
+        5 = EXT:fluid_styled_content/Resources/Private/Layouts/
+    }
+}
+
+@import 'EXT:common_container/Configuration/TypoScript/Container/*.typoscript'

@@ -1,0 +1,8 @@
+styles.templates.commoncontainer {
+    # cat=content/templates/s1; type=string; label= Path of Fluid Templates for common containers
+    templateRootPath =
+    # cat=content/templates/s2; type=string; label= Path of Fluid Partials for common containers
+    partialRootPath =
+    # cat=content/templates/s3; type=string; label= Path of Fluid Layouts for common containers
+    layoutRootPath =
+}
